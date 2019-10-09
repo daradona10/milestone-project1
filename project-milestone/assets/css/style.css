@@ -1,0 +1,354 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900&display=swap');
+
+/* Background - for used on secondary pages, with code to fix footer for short content pages */
+
+body {
+    font-family: "Cairo", sans-serif;
+
+    min-height: 100vh;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+body:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../images/background.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Color Schemes - reusable colour schemes for pages and containers*/
+
+.nav-footer-color {
+    background-color: #e7bd73;
+    color: #4a4949;
+    box-shadow: 0px 0px 25px 0px rgba(231, 189, 115, 0.95);
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(231, 189, 115, 0.95);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(231, 189, 115, 0.95);
+}
+
+.bg-clr-yellow {
+    background-color: #f9931eed;
+}
+
+.bg-clr-green {
+    background-color: #c3a61eed;
+}
+
+.bg-clr-purple {
+    background-color: #a775d2ed;
+}
+
+.bg-clr-red {
+    background-color: #e45454ed;
+}
+
+/* Buttons - reusable button formatting for use on pages to keep styling uniform*/
+
+.btn-red-transition {
+    color: #fafafa;
+    font-weight: 600;
+    background-color: #e45454;
+    border: 0px solid #e45454;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.btn-red-transition:hover {
+    background-color: #b34242;
+    color: #ffffff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-green-transition {
+    color: #fafafa;
+    font-weight: 600;
+    background-color: #93c31e;
+    border: 0px solid #93c31e;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.btn-green-transition:hover {
+    background-color: #7cb71e;
+    color: #ffffff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+
+/* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.headings {
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.headline-text {
+    font-size: 20px;
+}
+
+.border-box {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.box-format {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+/* Navigation Section - styling and formatting for use of reusable nav bar at top of pages*/
+
+.navbar-nav {
+    text-align: center
+}
+
+.navbar-brand img {
+    border: 3px solid #831f05;
+    max-width: 60px;
+}
+
+.navbar-brand-text {
+    font-weight: 600;
+    color: #831f05;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e45454;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid #e7bd73;
+}
+
+section {
+    margin-top: 63px;
+    padding: 15px;
+}
+
+.index-container {
+    height: 100vh;
+    background-color: #e45454;
+    background: url("../images/boxer.jpg") no-repeat top center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(45, 30, 4, 0.65);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-heading {
+    color: #e45454;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron-text {
+    margin: 30px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.navigation-container {
+    margin-top: 0px;
+    background-color: transparent;
+}
+
+.navquestion {
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.navquestion a {
+    text-decoration: none;
+}
+
+.navquestion a span {
+    color: #ffffff;
+}
+
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.table {
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 100%;
+    border-top: 0;
+    border: 100%;
+    position: relative;
+}
+/* Footer Section */
+
+footer {
+    margin-top: auto;
+}
+
+
+
+.footer-headings {
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+
+.footer-links li a i {
+    color: #e45454;
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+@media (min-width:992px) {
+    .navbar-brand img {
+        border: 3px solid #e45454;
+        max-width: 100px;
+    }
+
+    section {
+        margin-top: 81px;
+    }
+
+
+    .contact-links li a i {
+        color: #e45454;
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #e45454;
+        border-radius: 50%;
+        transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+    }
+
+
+    .footer-links li a i {
+        color: #4a4949;
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #e7bd73;
+        border-radius: 50%;
+        transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+    }
+
+
+    .contact-links {
+        padding-top: 20px;
+    }
+
+    .contact-links li {
+        text-align: left;
+        margin: 20px;
+        display: block;
+    }
+
+    .contact-links li a i:hover {
+        color: #fafafa;
+        background-color: #e45454;
+        border-color: #e45454;
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+
