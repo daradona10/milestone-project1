@@ -74,8 +74,8 @@ body:after {
 }
 
 .btn-red-transition:hover {
-    background-color: #b34242;
-    color: #ffffff;
+    background-color: #fafafa;
+    color: #000;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -104,6 +104,8 @@ body:after {
 
 /* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
 
+
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -111,10 +113,12 @@ body:after {
 .headings {
     padding-top: 15px;
     font-weight: 600;
+    color: #fafafa;
 }
 
 .headline-text {
     font-size: 20px;
+    color: #fafafa;
 }
 
 .border-box {
@@ -136,19 +140,20 @@ body:after {
 }
 
 .navbar-brand img {
-    border: 3px solid #831f05;
+    border: 3px solid #fafafa;
     max-width: 60px;
 }
 
 .navbar-brand-text {
     font-weight: 600;
-    color: #831f05;
+    color: #fafafa;
     font-size: 25px;
     padding: 0px 10px 0px 10px;
     vertical-align: middle;
 }
 
 .navbar-light .navbar-nav .nav-link {
+    color: #fafafa;
     font-size: 20px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -157,12 +162,12 @@ body:after {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #e45454;
+    color: #e7bd73;
     font-weight: 600;
 }
 
 .navbar-light .navbar-toggler {
-    border: 1px solid #e7bd73;
+    border: 1px solid #fafafa;
 }
 
 section {
@@ -172,7 +177,7 @@ section {
 
 .index-container {
     height: 100vh;
-    background-color: #B4C4D9;
+    background-color: #fafafa;
     background: url("../images/boxer.jpg") no-repeat top center;
     background-size: cover;
     display: -webkit-box;
@@ -200,7 +205,7 @@ section {
 }
 
 .jumbotron-heading {
-    color: #e45454;
+    color: #fafafa;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -208,7 +213,7 @@ section {
 .jumbotron-text {
     margin: 30px;
     font-size: 24px;
-    color: #ffffff;
+    color: #fafafa;
 }
 
 .navigation-container {
@@ -234,7 +239,7 @@ section {
 }
 
 .navquestion a span {
-    color: #ffffff;
+    color: #fafafa;
 }
 
 .container {
@@ -246,8 +251,8 @@ section {
 .container .content {
   position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  background: rgb(247, 240, 240); /* Fallback color */
+  background: rgb(245, 242, 242); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
@@ -268,7 +273,10 @@ footer {
     margin-top: auto;
 }
 
-
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e7bd73;
+}
 
 .footer-headings {
     padding-top: 15px;
@@ -277,7 +285,7 @@ footer {
 
 
 .footer-links li a i {
-    color: #4f6f8c;
+    color: #fafafa;
     font-size: 25px;
     text-align: center;
     padding: 0px;
@@ -316,7 +324,7 @@ footer {
 
 
     .footer-links li a i {
-        color: #011C26;
+        color: #fafafa;
         font-size: 25px;
         text-align: center;
         padding: 5px;
@@ -343,8 +351,8 @@ footer {
 
     .contact-links li a i:hover {
         color: #fafafa;
-        background-color: #e45454;
-        border-color: #e45454;
+        background-color: #fafafa;
+        border-color: #fafafa;
         -webkit-transform: scale(1.5);
         -ms-transform: scale(1.5);
         transform: scale(1.5);
