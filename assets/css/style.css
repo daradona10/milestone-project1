@@ -37,11 +37,11 @@ body:after {
 /* Color Schemes - reusable colour schemes for pages and containers*/
 
 .nav-footer-color {
-    background-color: #e7bd73;
-    color: #4a4949;
-    box-shadow: 0px 0px 25px 0px rgba(231, 189, 115, 0.95);
-    -webkit-box-shadow: 0px 0px 25px 0px rgba(231, 189, 115, 0.95);
-    -moz-box-shadow: 0px 0px 25px 0px rgba(231, 189, 115, 0.95);
+    background-color: #1a2849;
+    color: #ffffff;
+    box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
 }
 
 .bg-clr-yellow {
@@ -172,7 +172,7 @@ section {
 
 .index-container {
     height: 100vh;
-    background-color: #e45454;
+    background-color: #B4C4D9;
     background: url("../images/boxer.jpg") no-repeat top center;
     background-size: cover;
     display: -webkit-box;
@@ -193,7 +193,6 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(45, 30, 4, 0.65);
 }
 
 .jumbotron {
@@ -278,7 +277,7 @@ footer {
 
 
 .footer-links li a i {
-    color: #e45454;
+    color: #4f6f8c;
     font-size: 25px;
     text-align: center;
     padding: 0px;
@@ -317,7 +316,7 @@ footer {
 
 
     .footer-links li a i {
-        color: #4a4949;
+        color: #011C26;
         font-size: 25px;
         text-align: center;
         padding: 5px;
