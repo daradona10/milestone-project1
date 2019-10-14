@@ -100,8 +100,6 @@ body:after {
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-
-
 /* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
 
 
@@ -111,7 +109,7 @@ body:after {
 }
 
 .headings {
-    padding-top: 15px;
+    padding-top: 50px;
     font-weight: 600;
     color: #fafafa;
 }
@@ -265,6 +263,36 @@ section {
   padding: 20px; /* Some padding */
 }
 
+.container-wrapper {}
+
+.container-wrapper--yellow{
+    background-color: #f9931eed;
+    color: white;
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+
+
 .table {
     padding: 40px;
     margin-top: 30px;
@@ -274,6 +302,7 @@ section {
     border: 100%;
     position: relative;
 }
+
 
 .progress {
     position: relative;
@@ -390,3 +419,17 @@ footer {
     }
 }
 
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #fafafa;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
