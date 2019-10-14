@@ -242,6 +242,13 @@ section {
     color: #fafafa;
 }
 
+.price-img-float {
+     border: 3px solid #e45454;
+    border-radius: 25px;
+    margin: 10px auto 10px auto;
+    float: none;
+}
+
 .container {
   position: relative;
   max-width: 800px; /* Maximum width */
@@ -326,6 +333,10 @@ footer {
         margin-top: 81px;
     }
 
+.price-img-float {
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
 
     .contact-links li a i {
         color: #e45454;
