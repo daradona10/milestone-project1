@@ -291,7 +291,17 @@ section {
     line-height: 45px;
 }
 
+.team-members {
+    color: #fafafa
+}
 
+.blockquote {
+    color: #fafafa;
+}
+
+.text-uppercase {
+    color: #e7bd73
+}
 
 .table {
     padding: 40px;
