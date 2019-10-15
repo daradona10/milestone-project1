@@ -48,14 +48,6 @@ body:after {
     background-color: #f9931eed;
 }
 
-.bg-clr-green {
-    background-color: #c3a61eed;
-}
-
-.bg-clr-purple {
-    background-color: #a775d2ed;
-}
-
 .bg-clr-red {
     background-color: #e45454ed;
 }
@@ -81,28 +73,7 @@ body:after {
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.btn-green-transition {
-    color: #fafafa;
-    font-weight: 600;
-    background-color: #93c31e;
-    border: 0px solid #93c31e;
-    transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-}
-
-.btn-green-transition:hover {
-    background-color: #7cb71e;
-    color: #ffffff;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
 /* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
-
-
 
 .uppercase {
     text-transform: uppercase;
@@ -168,10 +139,14 @@ body:after {
     border: 1px solid #fafafa;
 }
 
+/*....... section*/
+
 section {
     margin-top: 63px;
     padding: 15px;
 }
+
+/*index...formatting of index page, jumbotron and nav*/
 
 .index-container {
     height: 100vh;
@@ -240,6 +215,8 @@ section {
     color: #fafafa;
 }
 
+
+
 .price-img-float {
      border: 3px solid #e45454;
     border-radius: 25px;
@@ -300,7 +277,7 @@ section {
 }
 
 .text-uppercase {
-    color: #e7bd73
+    color: #e7bd73;
 }
 
 .table {
