@@ -52,27 +52,6 @@ body:after {
     background-color: #e45454ed;
 }
 
-/* Buttons - reusable button formatting for use on pages to keep styling uniform*/
-
-.btn-red-transition {
-    color: #fafafa;
-    font-weight: 600;
-    background-color: #e45454;
-    border: 0px solid #e45454;
-    transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-}
-
-.btn-red-transition:hover {
-    background-color: #fafafa;
-    color: #000;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
 /* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
 
 .uppercase {
@@ -215,10 +194,20 @@ section {
     color: #fafafa;
 }
 
+/* Formatting for floating of images for mobile design*/
 
+.img {
+  max-width: 100% ;
+  height: auto ;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 
 .price-img-float {
-     border: 3px solid #e45454;
+    border: 3px solid #e45454;
     border-radius: 25px;
     margin: 10px auto 10px auto;
     float: none;
@@ -247,6 +236,7 @@ section {
     color: white;
 }
 
+/*page heading formatting on pages*/
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
@@ -257,6 +247,7 @@ section {
     margin-top: 0;
 }
 
+/*features section formatting and team members layout design */
 .feature {
     text-align: center;
     margin-bottom: 40px;
@@ -280,6 +271,7 @@ section {
     color: #e7bd73;
 }
 
+/* formatting on table and progress bars with bootstrap layout*/
 .table {
     padding: 40px;
     margin-top: 30px;
@@ -310,7 +302,7 @@ section {
     margin: 40px 20px;
 }
 
-/* Footer Section */
+/* Footer Section -reuable on every page */
 
 footer {
     margin-top: auto;
@@ -328,7 +320,7 @@ footer {
 
 
 .footer-links li a i {
-    color: #e45454;
+    color: #e7bd73;
     font-size: 25px;
     text-align: center;
     padding: 0px;
@@ -337,7 +329,7 @@ footer {
 }
 
 
-
+/*media queries for larger viewports*/
 
 @media (min-width:992px) {
     .navbar-brand img {
@@ -345,9 +337,9 @@ footer {
         max-width: 100px;
     }
 
-    section {
-        margin-top: 81px;
-    }
+section {
+     margin-top: 81px;
+ }
 
 .price-img-float {
     float: left;
@@ -385,26 +377,7 @@ footer {
         -webkit-transition: all 0.35s ease-in-out;
     }
 
-.contact-links {
-        padding-top: 20px;
-    }
-
-    .contact-links li {
-        text-align: left;
-        margin: 20px;
-        display: block;
-    }
-
-    .contact-links li a i:hover {
-        color: #fafafa;
-        background-color: #fafafa;
-        border-color: #fafafa;
-        -webkit-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-        transform: scale(1.5);
-    }
-}
-
+/*block diver formatting*/
 
 .block-divider {
     width: 75px;
