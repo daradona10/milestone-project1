@@ -341,7 +341,7 @@ footer {
 
 
 .footer-links li a i {
-    color: #fafafa;
+    color: #e45454;
     font-size: 25px;
     text-align: center;
     padding: 0px;
@@ -367,14 +367,14 @@ footer {
     margin: 10px 10px 10px 0px;
 }
 
-    .contact-links li a i {
-        color: #e45454;
+.contact-links li a i {
+        color: #fafafa;
         font-size: 25px;
         text-align: center;
         padding: 5px;
         width: 40px;
         height: 40px;
-        border: 3px solid #e45454;
+        border: 3px solid #fafafa;
         border-radius: 50%;
         transition: all 0.35s ease-in-out;
         -o-transition: all 0.35s ease-in-out;
@@ -383,7 +383,7 @@ footer {
     }
 
 
-    .footer-links li a i {
+.footer-links li a i {
         color: #fafafa;
         font-size: 25px;
         text-align: center;
@@ -398,8 +398,7 @@ footer {
         -webkit-transition: all 0.35s ease-in-out;
     }
 
-
-    .contact-links {
+.contact-links {
         padding-top: 20px;
     }
 
@@ -419,6 +418,7 @@ footer {
     }
 }
 
+
 .block-divider {
     width: 75px;
     height: 5px;
@@ -433,3 +433,4 @@ footer {
 .block-divider--short {
     width: 35px;
 }
+
