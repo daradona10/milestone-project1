@@ -52,6 +52,19 @@ body:after {
     background-color: #e45454ed;
 }
 
+/*Button for submitting contact form*/
+
+.btn-red-transition {
+    color: #fafafa;
+    font-weight: 600;
+    background-color: #e45454;
+    border: 0px solid #e45454;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
 /* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
 
 .uppercase {
@@ -394,3 +407,4 @@ section {
     width: 35px;
 }
 
+/* Formatting of Location map for responsive design*/
