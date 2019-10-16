@@ -260,6 +260,7 @@ section {
     margin-top: 0;
 }
 
+
 /*features section formatting and team members layout design */
 .feature {
     text-align: center;
@@ -272,8 +273,8 @@ section {
     line-height: 45px;
 }
 
-.team-members {
-    color: #fafafa
+.team {
+    margin-bottom: 25px;
 }
 
 .blockquote {
