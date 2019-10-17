@@ -27,7 +27,7 @@ body:after {
     left: 0;
     right: 0;
     z-index: -1;
-    background: url("../images/background.jpg") center center;
+    background-color: #00818a; center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,7 +37,7 @@ body:after {
 /* Color Schemes - reusable colour schemes for pages and containers*/
 
 .nav-footer-color {
-    background-color: #1a2849;
+    background-color: #293462;
     color: #ffffff;
     box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
     -webkit-box-shadow: 0px 0px 25px 0px rgba(34, 52, 116, 0.95);
@@ -45,7 +45,7 @@ body:after {
 }
 
 .bg-clr-yellow {
-    background-color: #f9931eed;
+    background-color: #ec9b36;
 }
 
 .bg-clr-red {
@@ -123,12 +123,12 @@ body:after {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #e7bd73;
+    color: #ec9b36;
     font-weight: 600;
 }
 
 .navbar-light .navbar-toggler {
-    border: 1px solid #fafafa;
+    border-color: #fafafa;
 }
 
 /*....... section*/
@@ -220,7 +220,7 @@ section {
 }
 
 .price-img-float {
-    border: 3px solid #e45454;
+    border: 3px solid #293462;
     border-radius: 25px;
     margin: 10px auto 10px auto;
     float: none;
@@ -242,7 +242,10 @@ section {
   padding: 20px; /* Some padding */
 }
 
-.container-wrapper {}
+.container-wrapper {
+     margin-top: 50px;
+     margin-bottom: 40px;
+}
 
 .container-wrapper--yellow{
     background-color: #f9931eed;
@@ -324,7 +327,7 @@ footer {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #e7bd73;
+    color: #f7be16;
 }
 
 .footer-headings {
@@ -334,7 +337,7 @@ footer {
 
 
 .footer-links li a i {
-    color: #e7bd73;
+    color: #f7be16;
     font-size: 25px;
     text-align: center;
     padding: 0px;
@@ -367,7 +370,7 @@ section {
         padding: 5px;
         width: 40px;
         height: 40px;
-        border: 3px solid #fafafa;
+        border: 3px solid #f7be16;
         border-radius: 50%;
         transition: all 0.35s ease-in-out;
         -o-transition: all 0.35s ease-in-out;
@@ -383,7 +386,7 @@ section {
         padding: 5px;
         width: 40px;
         height: 40px;
-        border: 3px solid #e7bd73;
+        border: 3px solid #f7be16;
         border-radius: 50%;
         transition: all 0.35s ease-in-out;
         -o-transition: all 0.35s ease-in-out;
