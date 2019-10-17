@@ -417,3 +417,6 @@ section {
 
 /* Formatting of Location map for responsive design*/
 
+.embed-responsive-item {
+    margin-top: 30px;
+}
