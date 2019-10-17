@@ -57,8 +57,8 @@ body:after {
 .btn-red-transition {
     color: #fafafa;
     font-weight: 600;
-    background-color: #e45454;
-    border: 0px solid #e45454;
+    background-color: #293462;
+    border: 0px solid;
     transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -66,6 +66,10 @@ body:after {
 }
 
 /* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
+
+.btn-red-transition:hover {
+    color: #f7be16;
+}
 
 .uppercase {
     text-transform: uppercase;
