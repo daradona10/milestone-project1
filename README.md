@@ -125,3 +125,68 @@ The following languages, frameworks, libraries, IDE, repositories and tools were
     * GitHub - for hosting of project repository as well as publishling of website.
 
     * W3C CSS Validation Service - This project was tested using the following.
+
+#Testing
+
+Navigation Menu: Checked that the navigation links collaspe to naviagtion toggle on smaller screens, verified working correctly
+                 -Checked that hovering over navigation links changed color, verified working correctly.
+                 -All links to appropriate pages, verified working properly.
+
+Navigation Questions: Checked that content is viewable in containers and structure looks good, stacked 2x2 on smaller screen sizes and adjacent
+                      to each other on larger scales, verified working properly.
+                      -On hover the questions should bounce on on desktop mode, verified working correctly.
+                      -Links to appropriate pages when clicked on, verified working properly.
+
+Footers: Checked that footer content is stcaked on top of one another for smaller screen sizes and adjacent to one another on larger screen size, verified
+         working properly.
+         -Checked that icon links to correct social media in a new page, verified working correctly.
+
+During the initial testing stage the images were too big and did not fit properly on smaller devices also. First all the images were compressed
+using resizeimage.net and then compressed along with adding another file name img-fluid. This allowed all the images to be rescaled properly across
+all devices.
+
+The table class outlay was proven problematic on smaller devices as didn't have the proper tools at my disposal to showcase it properly. I eventually inserted 
+overflow x-scroll tag that allowed the user to move it up and down and across with their finger on smaller devices. It allowed me to fit the whole table 
+and it worked better. Ideally I would have liked to have used a smaller screen using both a visible side bar and bottom bar to scroll within the parameters.
+
+Contact page: Checked that content is viewable in conatiners and structured looked good and stacked on top of each other on smaller screens and adjacent to
+               one another on larger displays verified working correctly
+              -Try to submit empty form and it comes up first saying please fill out the first field
+              -If you fill out first field and then press submit the same thing happens and asks you to fill out the field below it
+              -If you fill out the email address section without the @ sign it will tell you that an email address needs to have the @ sign in it.
+              -Once all fields are filled out correctly with no errors, verified working correctly.
+              -Location map was embedded to work on all devices and to open in a new window also if the user wished to do so. Was verified and checked.
+
+Facilities page: Checked that content is viewable in containers and structure looks good and stacked on top of each other on smaller devices also.
+
+Classes page: Checked that content is viewable in containers and structure looks good and stacked on top of each other on smaller devives also.
+               -The videos are all scaled across the devices properly.
+               -The videos were embedded or else they would not load at all.
+
+Membership page: Checked that content in containers and structure looks good and stacked on top of each other on smaller devices also.
+
+Was tested on all the major mobile devices and also the larger tablet sizes along with Chrome, Firefox and on Safari. All worked ok and scaled well 
+according to the different screen sizes. 
+
+#Deployment
+
+This project is deployed on GitHub and is accessible as follows:
+
+     * Website[here](https://daradona10.github.io/milestone-project1/index.html)
+
+     * Repository[here](https://github.com/daradona10/milestone-project1)
+
+#Deployment to GitHub Pages 
+
+To deploy this page to GitHub pages from its GitHub repository, the following steps were taken:
+
+     1. Log into GitHub.
+     2.
+
+
+                
+
+
+
+
+
