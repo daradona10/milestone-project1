@@ -1,13 +1,13 @@
-#DARRAGH MARTIN PROJECT MILESTONE 1: GYM WEBSITE
+# DARRAGH MARTIN PROJECT MILESTONE 1: GYM WEBSITE
 
-The deployed website can be accessed from here:[here](https://daradona10.github.io/milestone-project1/)
+The deployed website can be accessed from:[here](https://daradona10.github.io/milestone-project1/)
 
 #MAIN GOAL FOR THIS WEBSITE
 
 This website was set up for a new gym in town and to provide gym users with information on the gym, the facilities that are provided,
 the class timetables for people more interested in fitness classes instead and where exactly it is located.
 
-#UX
+## UX
 
 The owner of the gym specifically asked me to design a website to showcase the new gym in town and to provide a user friendly vibrant website
 to attract new members to the gym. The flow of the site was created for the avid gym goer in mind with clear navigation menu in mind and to avoid
@@ -29,7 +29,7 @@ It was developed with the member in mind to be able to:
 
 The end user will find this very easy to utilise and navigate.
 
-*GYM USER MYSELF:
+* GYM USER MYSELF:
 
     * As an avid fitness bunny myself, I want to be able access the site with ease to see what facilities the gym carries and what are the main gym
       equpiment it carries.
@@ -45,7 +45,7 @@ The end user will find this very easy to utilise and navigate.
 
     * As a user of the website, I want the site to function on any device.
 
-#WIREFRAMES
+# Wireframes
 
 Wireframes for the mobile and desktop was done through Balsamiq. Both versions are listed below:
 
@@ -53,7 +53,7 @@ Wireframes for the mobile and desktop was done through Balsamiq. Both versions a
 
     Desktop:[here](https://github.com/daradona10/milestone-project1/blob/master/development/wireframingdesktopdesign.pdf)
 
-#Design Considerations:
+# Design Considerations:
 
 It was decided to style the website with some vibrant colors and a darker main tone to move away from traditonal gym websites namely white and red tones
 
@@ -145,8 +145,8 @@ During the initial testing stage the images were too big and did not fit properl
 using resizeimage.net and then compressed along with adding another file name img-fluid. This allowed all the images to be rescaled properly across
 all devices.
 
-The table class outlay was proven problematic on smaller devices as didn't have the proper tools at my disposal to showcase it properly. I eventually inserted 
-overflow x-scroll tag that allowed the user to move it up and down and across with their finger on smaller devices. It allowed me to fit the whole table 
+The table class outlay was proven problematic on smaller devices as didn't have the proper tools at my disposal to showcase it properly. I eventually inserted
+overflow x-scroll tag that allowed the user to move it up and down and across with their finger on smaller devices. It allowed me to fit the whole table
 and it worked better. Ideally I would have liked to have used a smaller screen using both a visible side bar and bottom bar to scroll within the parameters.
 
 Contact page: Checked that content is viewable in conatiners and structured looked good and stacked on top of each other on smaller screens and adjacent to
@@ -165,8 +165,8 @@ Classes page: Checked that content is viewable in containers and structure looks
 
 Membership page: Checked that content in containers and structure looks good and stacked on top of each other on smaller devices also.
 
-Was tested on all the major mobile devices and also the larger tablet sizes along with Chrome, Firefox and on Safari. All worked ok and scaled well 
-according to the different screen sizes. 
+Was tested on all the major mobile devices and also the larger tablet sizes along with Chrome, Firefox and on Safari. All worked ok and scaled well
+according to the different screen sizes.
 
 #Deployment
 
@@ -176,7 +176,7 @@ This project is deployed on GitHub and is accessible as follows:
 
      * Repository[here](https://github.com/daradona10/milestone-project1)
 
-#Deployment to GitHub Pages 
+#Deployment to GitHub Pages
 
 To deploy this page to GitHub pages from its GitHub repository, the following steps were taken:
 
@@ -196,8 +196,8 @@ This website can also be locally deployed by following the method outlined below
      4. In your local editor program, open Git Bash
      5. Change the current working directory to the location where you want the cloned directory to be made.
      6. Type the git clone, and then paste the URL you copied in Step 3.
-     7. Press Enter. Your local clone will be created. 
-     
+     7. Press Enter. Your local clone will be created.
+
 
 #Credits
 
@@ -222,7 +222,7 @@ This website can also be locally deployed by following the method outlined below
      * I would like also to give many thanks to my tutor Xavier and my fellow peers in my group for helping me and for encouragement
 
      * A lot of thanks and gratitude to the slack community for helping me whenever I got and to at least point me in the right direction.
-                
+
 
 
 
