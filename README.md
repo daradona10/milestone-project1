@@ -181,9 +181,47 @@ This project is deployed on GitHub and is accessible as follows:
 To deploy this page to GitHub pages from its GitHub repository, the following steps were taken:
 
      1. Log into GitHub.
-     2.
+     2. From list of repositories on the screen, select daradona10/milestone-project1
+     3. From the menu items near the top of the page, select Settings
+     4. Scroll down to the GitHub Pages section.
+     5. Under the Source Link click the drop-down menu labelled None and select master Branch
+     6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+     7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
+This website can also be locally deployed by following the method outlined below:
 
+     1. Follow the link to GitHub repository here[here](https://github.com/daradona10/milestone-project1)
+     2. Under the repository name, click the green "Clone or download"button
+     3. In the Clone with HTTPs section, copy the clone URL for the repository
+     4. In your local editor program, open Git Bash
+     5. Change the current working directory to the location where you want the cloned directory to be made.
+     6. Type the git clone, and then paste the URL you copied in Step 3.
+     7. Press Enter. Your local clone will be created. 
+     
+
+#Credits
+
+#Content
+
+     * Inspiration for content layouts for a gym website taken from planethealthlimerick.ie
+
+#Media
+
+     * Background Image on home page and Images across rest of the site taken from Pixabay and Pexels
+
+     * Social Media Links to external sources on new page on behalf of planethealthlimerick.ie (to show the links work)
+
+     * Videos taken from YouTube to give an example of gym posting their own classes videos
+
+     * Location Map taken from Google Maps using planethealthlimerick.ie as a location
+
+#Credits
+
+     * I would like to thank Brian Macharia my mentor for input and feedabck during the development of my site
+
+     * I would like also to give many thanks to my tutor Xavier and my fellow peers in my group for helping me and for encouragement
+
+     * A lot of thanks and gratitude to the slack community for helping me whenever I got and to at least point me in the right direction.
                 
 
 
