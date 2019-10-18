@@ -45,13 +45,13 @@ The end user will find this very easy to utilise and navigate.
 
     * As a user of the website, I want the site to function on any device.
 
-# Wireframes
+### Wireframes
 
 Wireframes for the mobile and desktop was done through Balsamiq. Both versions are listed below:
 
-    Mobile:[here](https://github.com/daradona10/milestone-project1/blob/master/development/wireframemobiledesign.pdf)
+   # Mobile:[here](https://github.com/daradona10/milestone-project1/blob/master/development/wireframemobiledesign.pdf)
 
-    Desktop:[here](https://github.com/daradona10/milestone-project1/blob/master/development/wireframingdesktopdesign.pdf)
+   # Desktop:[here](https://github.com/daradona10/milestone-project1/blob/master/development/wireframingdesktopdesign.pdf)
 
 # Design Considerations:
 
@@ -61,7 +61,7 @@ Bootstrap grid system was used, containers and components to make them so respon
 
 Only HTML5, CSS3 and Bootstap used for this project.
 
-#FEATURES
+# FEATURES
 
    * Navigate: Easy to navigate through Home page that allowed the user to easily navigate and easily click on one of the four functions at the top of the page
      or towards the bottom and that will take the user immediately to the option they picked.
@@ -92,7 +92,7 @@ Only HTML5, CSS3 and Bootstap used for this project.
    * Social Buttons: I have added the gym's socal media links at the footer at every page. This was done to help increase traffic to the various social media sites
      and keep users interested and coming back for more.
 
-#Features Left to Implement:
+# Features Left to Implement:
 
     * I would like the user to be able to join the gym directly online through the website.
 
@@ -102,11 +102,11 @@ Only HTML5, CSS3 and Bootstap used for this project.
 
     * To have our personal training page and to be able to book a session with our trainers and to outline what they would like to focus on.
 
-#Getting Started
+# Getting Started
 
  This website is built using HTML5, CSS3 and Bootstrap framework and a little JS/JQuery for interactivity.
 
- #Technologies used
+ # Technologies Used
 
 The following languages, frameworks, libraries, IDE, repositories and tools were used for this website:
 
@@ -126,7 +126,7 @@ The following languages, frameworks, libraries, IDE, repositories and tools were
 
     * W3C CSS Validation Service - This project was tested using the following.
 
-#Testing
+# Testing
 
 Navigation Menu: Checked that the navigation links collaspe to naviagtion toggle on smaller screens, verified working correctly
                  -Checked that hovering over navigation links changed color, verified working correctly.
@@ -168,15 +168,15 @@ Membership page: Checked that content in containers and structure looks good and
 Was tested on all the major mobile devices and also the larger tablet sizes along with Chrome, Firefox and on Safari. All worked ok and scaled well
 according to the different screen sizes.
 
-#Deployment
+### Deployment
 
 This project is deployed on GitHub and is accessible as follows:
 
-     * Website[here](https://daradona10.github.io/milestone-project1/index.html)
+ # Website[here](https://daradona10.github.io/milestone-project1/index.html)
 
-     * Repository[here](https://github.com/daradona10/milestone-project1)
+# Repository[here](https://github.com/daradona10/milestone-project1)
 
-#Deployment to GitHub Pages
+# Deployment to GitHub Pages
 
 To deploy this page to GitHub pages from its GitHub repository, the following steps were taken:
 
@@ -190,32 +190,34 @@ To deploy this page to GitHub pages from its GitHub repository, the following st
 
 This website can also be locally deployed by following the method outlined below:
 
-     1. Follow the link to GitHub repository here[here](https://github.com/daradona10/milestone-project1)
-     2. Under the repository name, click the green "Clone or download"button
-     3. In the Clone with HTTPs section, copy the clone URL for the repository
-     4. In your local editor program, open Git Bash
-     5. Change the current working directory to the location where you want the cloned directory to be made.
-     6. Type the git clone, and then paste the URL you copied in Step 3.
-     7. Press Enter. Your local clone will be created.
+ 1. Follow the link to GitHub repository [here](https://github.com/daradona10/milestone-project1)
+ 2. Under the repository name, click the green "Clone or download"button
+ 3. In the Clone with HTTPs section, copy the clone URL for the repository
+ 4. In your local editor program, open Git Bash
+ 5. Change the current working directory to the location where you want the cloned directory to be made.
+ 6. Type the git clone, and then paste the URL you copied in Step 3.
+ 7. Press Enter. Your local clone will be created.
 
 
-#Credits
+# Credits
 
-#Content
+# Content
 
-     * Inspiration for content layouts for a gym website taken from planethealthlimerick.ie
+   * Inspiration for content layouts for a gym website taken from [here](https://planethealthlimerick.ie/)
 
-#Media
+# Media
 
-     * Background Image on home page and Images across rest of the site taken from Pixabay and Pexels
+  * Background Image on home page and Images across rest of the site taken from [here](https://pixabay.com/) and [here](https://www.pexels.com/)
 
-     * Social Media Links to external sources on new page on behalf of planethealthlimerick.ie (to show the links work)
+  * Social Media Links to external sources on new page on behalf of [here](https://planethealthlimerick.ie/) {to show links work}
 
-     * Videos taken from YouTube to give an example of gym posting their own classes videos
+  * Videos taken from YouTube to give an example of gym posting their own classes videos
 
-     * Location Map taken from Google Maps using planethealthlimerick.ie as a location
+  * Location Map taken from Google Maps using [here]https://planethealthlimerick.ie/ as a location
 
-#Credits
+  * Color layout for website taken from [here](https://colorhunt.co/palette/160018)
+
+# Credits
 
      * I would like to thank Brian Macharia my mentor for input and feedabck during the development of my site
 
