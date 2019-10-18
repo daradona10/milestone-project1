@@ -168,6 +168,13 @@ Membership page: Checked that content in containers and structure looks good and
 Was tested on all the major mobile devices and also the larger tablet sizes along with Chrome, Firefox and on Safari. All worked ok and scaled well
 according to the different screen sizes.
 
+All the HTML code was tested via a HTML Validator [here](https://validator.w3.org/) and I'm currently aware of a warning for the 2 images on the team member photos on the facilities page but it also said unless
+in special cirumstances and in this case which it is and I decide to leave that as it is.
+
+In the classes page there was a few warnings re the table row columns but due to the complexity of this table and trying to make it responsive I have decided to leave this as
+it is also. Also a warning to consider using a header element where the videos are located but it wasn't needed in this case so left it as a warning.
+
+
 ### Deployment
 
 This project is deployed on GitHub and is accessible as follows:
