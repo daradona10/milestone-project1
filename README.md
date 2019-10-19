@@ -1,8 +1,8 @@
 # DARRAGH MARTIN PROJECT MILESTONE 1: GYM WEBSITE
 
-The deployed website can be accessed from:[here](https://daradona10.github.io/milestone-project1/)
+The deployed website can be accessed from: [here](https://daradona10.github.io/milestone-project1/)
 
-#MAIN GOAL FOR THIS WEBSITE
+# MAIN GOAL FOR THIS WEBSITE
 
 This website was set up for a new gym in town and to provide gym users with information on the gym, the facilities that are provided,
 the class timetables for people more interested in fitness classes instead and where exactly it is located.
@@ -40,7 +40,7 @@ The end user will find this very easy to utilise and navigate.
 
     * As a gym goer, I want to be able to contact the gym by various means whether through their website or by phone.
 
-    * As a daily user of being on the internet for website that are of interest to me, it's important that the gym website is kep up to date also through
+    * As a daily user of being on the internet for website that are of interest to me, it's important that the gym website is kept up to date also through
       their social media links.
 
     * As a user of the website, I want the site to function on any device.
@@ -49,9 +49,9 @@ The end user will find this very easy to utilise and navigate.
 
 Wireframes for the mobile and desktop was done through Balsamiq. Both versions are listed below:
 
-   # Mobile:[here](https://github.com/daradona10/milestone-project1/blob/master/development/wireframemobiledesign.pdf)
+   # Mobile: [here](https://github.com/daradona10/milestone-project1/blob/master/development/wireframemobiledesign.pdf)
 
-   # Desktop:[here](https://github.com/daradona10/milestone-project1/blob/master/development/wireframingdesktopdesign.pdf)
+   # Desktop: [here](https://github.com/daradona10/milestone-project1/blob/master/development/wireframingdesktopdesign.pdf)
 
 # Design Considerations:
 
@@ -61,7 +61,7 @@ Bootstrap grid system was used, containers and components to make them so respon
 
 Only HTML5, CSS3 and Bootstap used for this project.
 
-# FEATURES
+# Features
 
    * Navigate: Easy to navigate through Home page that allowed the user to easily navigate and easily click on one of the four functions at the top of the page
      or towards the bottom and that will take the user immediately to the option they picked.
@@ -73,7 +73,7 @@ Only HTML5, CSS3 and Bootstap used for this project.
    * The user can read from some of our team members of what it means to them to be working in the fitness industry.
 
    * Classes: The user can see what fitness classes are available, what time it is on at and what day it takes place and they can also have a quick look at the
-     progress bars to see whether they prefer to focus on strenght, cario, holistic or fitness type classes etc.
+     progress bars to see whether they prefer to focus on strenght, cardio, holistic or fitness type classes etc.
 
    * The class timetable can be viewed on a smaller device by scrolling across with their fingers and navigating up and down.
 
@@ -124,11 +124,13 @@ The following languages, frameworks, libraries, IDE, repositories and tools were
 
     * GitHub - for hosting of project repository as well as publishling of website.
 
-    * W3C CSS Validation Service - This project was tested using the following.
+    * W3C CSS Validation Service - this project was tested for checking conformity and validity of css content.
+
+    * W3C Markup Service - this was used for checking conformity and validity of html.
 
 # Testing
 
-Navigation Menu: Checked that the navigation links collaspe to naviagtion toggle on smaller screens, verified working correctly
+Navigation Menu: Checked that the navigation links collaspe to navigation toggle on smaller screens, verified working correctly
                  -Checked that hovering over navigation links changed color, verified working correctly.
                  -All links to appropriate pages, verified working properly.
 
@@ -174,6 +176,8 @@ in special cirumstances and in this case which it is and I decide to leave that 
 In the classes page there was a few warnings re the table row columns but due to the complexity of this table and trying to make it responsive I have decided to leave this as
 it is also. Also a warning to consider using a header element where the videos are located but it wasn't needed in this case so left it as a warning.
 
+This project was also tested using the W3C Markup Validation Servie [here](https://jigsaw.w3.org/css-validator/) for checking conformity and validity of html
+
 
 ### Deployment
 
@@ -211,6 +215,10 @@ This website can also be locally deployed by following the method outlined below
 # Content
 
    * Inspiration for content layouts for a gym website taken from [here](https://planethealthlimerick.ie/)
+
+   * W3Schools site for other hints and information [here](https://www.w3schools.com/)
+
+   * Stack Overflow was sometimes looked at but not always used [here](https://stackoverflow.com/)
 
 # Media
 
