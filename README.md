@@ -220,7 +220,14 @@ This website can also be locally deployed by following the method outlined below
 
    * Stack Overflow was sometimes looked at but not always used [here](https://stackoverflow.com/)
 
-   * Wemt back over some of the coursework we did to take some inspirations and using some of the tools we learnt also and used some when needed.
+   * Went back over some of the coursework we did to take some inspirations and using some of the tools we learnt also and used some of the coding from
+
+     it when needed.
+
+   * Any other code snippets I needed or to try and get something to work were provided by various users in Slack community, my tutor, my mentor, general research.
+
+   * Our tutor gave us some examples of other users to write the READme files better.
+
 
 # Media
 
