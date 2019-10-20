@@ -220,6 +220,8 @@ This website can also be locally deployed by following the method outlined below
 
    * Stack Overflow was sometimes looked at but not always used [here](https://stackoverflow.com/)
 
+   * Wemt back over some of the coursework we did to take some inspirations and using some of the tools we learnt also and used some when needed.
+
 # Media
 
   * Background Image on home page and Images across rest of the site taken from [here](https://pixabay.com/) and [here](https://www.pexels.com/)
