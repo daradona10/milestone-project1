@@ -159,7 +159,6 @@ section {
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
-    width: 100%;
 }
 
 .opaque-overlay {
