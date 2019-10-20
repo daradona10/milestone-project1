@@ -238,9 +238,9 @@ section {
 
 .container .content {
   position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  bottom: 0;
   background: rgb(247, 240, 240); /* Fallback color */
-  background: rgb(245, 242, 242); /* Black background with 0.5 opacity */
+  background: rgb(245, 242, 242);
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
@@ -354,7 +354,7 @@ footer {
 
 @media (min-width:992px) {
     .navbar-brand img {
-        border: 3px solid #e45454;
+        border: 3px solid;
         max-width: 100px;
     }
 
