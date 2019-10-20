@@ -213,6 +213,7 @@ This website can also be locally deployed by following the method outlined below
 # Credits
 
 # Content
+   * Looked at other examples on GitHub re milstone projects before for examples and insights. A lot were done on the Monkees before.
 
    * Inspiration for content layouts for a gym website taken from [here](https://planethealthlimerick.ie/)
 
